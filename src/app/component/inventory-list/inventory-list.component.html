@@ -1,0 +1,7 @@
+<div class="container d-flex justify-content-center flex-column">
+    <inventory-inventory-form></inventory-inventory-form>
+    <hr class="my-4">
+    <div class="d-flex justify-content-around flex-wrap">
+        <inventory-player-card [player]="player" *ngFor="let player of players$ | async"></inventory-player-card>
+    </div>
+</div>

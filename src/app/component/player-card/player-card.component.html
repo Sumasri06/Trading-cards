@@ -1,0 +1,10 @@
+<div class="card border-success mb-3 text-capitalize" style="max-width: 18rem; min-width: 18rem;"
+  *ngIf="player">
+    <div class="card-header bg-transparent border-success d-flex justify-content-between text-success">{{player.firstName}} {{player.lastName}}
+        <span class="float-right">{{player.playerNumber}}</span>
+    </div>
+    <div class="card-body text-success">
+      <h5 class="card-title">{{player.teamName}}</h5>
+    </div>
+    <div class="card-footer bg-transparent border-success text-end text-success">{{player.expectedValue ? '$' + player.expectedValue : '--'}}</div>
+  </div>
