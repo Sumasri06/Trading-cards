@@ -1,5 +1,3 @@
-######Create/View Sports Trading cards
-
 <div class="container">
     <!-- <h4><u>About</u></h4> -->
     <p>This application is used to create inventory of the sports trading cards and view them.</p>
@@ -16,4 +14,13 @@
         <li>Bootstrap 5</li>
         <li>Jasmine & Karma Unit Testing</li>
     </ol>
+    <h4><u>Screenshots</u></h4>
+    <li>Home Page</li>
+    <img src="trading_cards_screenshots/Home_page.PNG" alt="Home page"> 
+    <li>About</li>
+    <img src="trading_cards_screenshots/about_page.PNG" alt="About">
+    <li>Mobile View</li>
+    <img src="trading_cards_screenshots/Mobile_View.jpg" alt="Mobile View">
+    <li>Code Coverage</li>
+    <img src="trading_cards_screenshots/Code_Coverage.PNG" alt="Code coverage results">
 </div>
